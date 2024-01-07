@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Translator</title>
+    <link rel="stylesheet" href="src/styles/style.css">
+    <script src="src/scripts/script.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="translate-from__actions">
+            <select name="languages-from" id="languages-from" class="languages languages-from">
+            </select>
+            <div class="copy-container cpy-from">
+                <img src="./public/images/copy.svg" alt="copy">
+            </div>
+            <div class="audio from-audio">
+                <img src="./public/images/speaker.svg" alt="Audio">
+            </div>
+        </div>
+        <div class="translate-from-container">
+            <textarea name="from" id="from" cols="30" rows="10"></textarea>
+        </div>
+        <div class="swap-language" id="swap">
+            <img src="./public/images/convert.svg" alt="Swap Language">
+        </div>
+        <div class="translate-to__actions">
+            <select name="languages-to" id="languages-to" class="languages languages-from">
+            </select>
+            <div class="copy-container cpy-to">
+                <img src="./public/images/copy.svg" alt="copy">
+            </div>
+            <div class="audio to-audio">
+                <img src="./public/images/speaker.svg" alt="Audio">
+            </div>
+        </div>
+        <div class="translate-to-container">
+            <textarea name="to" id="to" cols="30" rows="10" disabled placeholder="Translation"></textarea>
+        </div>
+        <button id="btn-translate" class="btn btn-translate">Submit</button>
+    </div>
+</body>
+
+</html>
