@@ -1,6 +1,6 @@
 # Language Translator
 
-Live url: 
+Live url: https://rajiv-0920.github.io/Language-Translator/
 
 ![Screenshot (21)](https://github.com/Rajiv-0920/Language-Translator/assets/133740418/372e62e5-6929-49d1-8ada-128bf169c7a7)
 
